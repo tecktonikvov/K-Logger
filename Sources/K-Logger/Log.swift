@@ -53,9 +53,9 @@ public final class Log {
         case .user(let label):
             ConsoleLog.debug(message, subsystem: subsystem, category: label)
         case .requestOut:
-            ConsoleLog.requestOut(message, subsystem: subsystem, category: "REQUEST OUT")
+            ConsoleLog.requestOut(message, subsystem: subsystem, category: "Request Out")
         case .requestIn:
-            ConsoleLog.requestIn(message, subsystem: subsystem, category: "REQUEST IN")
+            ConsoleLog.requestIn(message, subsystem: subsystem, category: "Request In")
         }
     }
     
