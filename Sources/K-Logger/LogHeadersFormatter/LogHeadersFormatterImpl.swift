@@ -1,6 +1,6 @@
 //
 //  LogHeadersImpl.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (31.01.2022).
 

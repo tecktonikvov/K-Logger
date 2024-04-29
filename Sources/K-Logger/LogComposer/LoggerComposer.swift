@@ -1,6 +1,6 @@
 //
 //  LoggerComposer.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (14/2/22).
 

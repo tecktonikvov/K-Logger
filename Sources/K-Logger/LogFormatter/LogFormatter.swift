@@ -1,6 +1,6 @@
 //
 //  LogFormatter.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (12.01.2022).
 

@@ -1,6 +1,6 @@
 //
 //  LoggerStorageSpy.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (28.01.2022).
 //

@@ -1,6 +1,6 @@
 //
 //  LoggerStorageImpl.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (21.01.2022).
 

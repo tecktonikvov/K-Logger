@@ -1,6 +1,6 @@
 //
 //  LineReaderImpl.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (02.02.2022).
 

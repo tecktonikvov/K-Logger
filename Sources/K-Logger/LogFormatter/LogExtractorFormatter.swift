@@ -1,6 +1,6 @@
 //
 //  LogFormatterExtractorInterface.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (03.02.2022).
 

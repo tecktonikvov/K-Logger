@@ -1,6 +1,6 @@
 //
 //  FileActionProvider.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (13.01.2022).
 

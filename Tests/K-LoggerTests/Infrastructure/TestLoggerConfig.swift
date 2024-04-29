@@ -1,6 +1,6 @@
 //
 //  TestLoggerConfig.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (1/3/22).
 //

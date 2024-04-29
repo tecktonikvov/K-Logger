@@ -1,6 +1,6 @@
 //
 //  Logger.swift
-//  Main
+//  K-Logger
 //
 //  Created by Volodymyr Kotsiubenko (22.12.2021).
 
