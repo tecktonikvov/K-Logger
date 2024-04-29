@@ -41,11 +41,11 @@ extension FileMeta {
 
 // MARK: - Comparable
 extension FileMetaImpl: Comparable {
-    public static func < (lhs: FileMetaImpl, rhs: FileMetaImpl) -> Bool {
+    static func < (lhs: FileMetaImpl, rhs: FileMetaImpl) -> Bool {
         lhs.creationDate < rhs.creationDate
     }
     
-    public static func == (lhs: FileMetaImpl, rhs: FileMetaImpl) -> Bool {
+    static func == (lhs: FileMetaImpl, rhs: FileMetaImpl) -> Bool {
         lhs.url == rhs.url
     }
 }
@@ -54,7 +54,7 @@ extension FileMetaImpl: Comparable {
 enum LogFileError: LocalizedError {
     case invalidFileName
     
-    public var errorDescription: String? {
+    var errorDescription: String? {
         switch self {
         case .invalidFileName:
             return "File name does not match the specified format"

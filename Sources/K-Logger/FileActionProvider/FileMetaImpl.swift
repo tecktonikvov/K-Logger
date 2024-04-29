@@ -6,7 +6,7 @@
 
 import Foundation
 
-public struct FileMetaImpl: FileMeta {
+struct FileMetaImpl: FileMeta {
     private var fileAttributes: [FileAttributeKey: Any]
     
     let url: URL

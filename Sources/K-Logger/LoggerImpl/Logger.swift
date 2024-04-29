@@ -6,7 +6,7 @@
 
 import Foundation
 
-public protocol Logger {
+protocol Logger {
     /// Saves the given data of the specified type to a logging storage.
     /// A storage is defined by the concrete logger implementation.
     /// - Parameters:
@@ -45,7 +45,7 @@ public protocol Logger {
 }
 
 // MARK: - Protocol Extension
-public extension Logger {
+extension Logger {
     func log(type: LogEventType, message: String, params: [String: Any]? = nil, tag: String? = nil) {
         log(type: type, message: message, params: params, tag: tag)
     }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Log {
+public final class Log {
     typealias LogData = [String: Any]
     
     // MARK: - Private
