@@ -13,9 +13,9 @@ final class LoggerComposer {
     ///  
     /// - Parameters:
     ///   - maxFilesSize: Defines the total maximum disk space for log files in bytes. Min - 1, max - no limit. Default 20mb, (0 will disable logging).
-    ///   - maxFilesCount: Defines the maximum number of stored files on a disk. Min - 1, max - no limit. Default 40, (0 will disable logging).
+    ///   - maxFilesCount: Defines the maximum number of stored files on a disk. Min - 1, max - no limit. Default 10, (0 will disable logging).
     ///
-    static func makeDiskLogger(maxFilesSize: UInt = 10 * 1024 * 1024, maxFilesCount: UInt = 10) -> Logger {
+    static func makeDiskLogger(maxFilesSize: UInt = 20 * 1024 * 1024, maxFilesCount: UInt = 10) -> Logger {
         let fileManager = FileManager.default
         let defaultConfig = DefaultLoggerConfig()
         let logFormatter = LogFormatterImpl(config: defaultConfig)
