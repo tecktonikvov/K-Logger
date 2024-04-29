@@ -31,6 +31,13 @@ public struct LoggerUtils {
         }
     }
     
+    /// Returns an array of existent LogFile objects using async/await
+    public func logFiles() async -> [LogFile] {
+        let result = logger.logFiles()
+            .sorted(by: { $0.fileUrl.creation > $1.fileUrl.creation })
+        return result
+    }
+    
     /// Returns last LogFile objects using closure
     public func lastLogFile(completion: @escaping (LogFile?) -> Void) {
         DispatchQueue.global(qos: .background).async {
@@ -42,6 +49,14 @@ public struct LoggerUtils {
                 completion(result)
             }
         }
+    }
+    
+    /// Returns last LogFile objects using async/await
+    public func lastLogFile() async -> LogFile? {
+        let result = logger.logFiles()
+            .sorted(by: { $0.fileUrl.creation > $1.fileUrl.creation })
+            .first
+        return result
     }
 }
 
