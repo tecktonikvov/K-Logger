@@ -47,7 +47,7 @@ struct DefaultLoggerConfig: LoggerConfig {
         return calendar
     }()
     
-    let loggerVersion = "1.0.0"
+    let loggerVersion = "1.1.3"
     let fileExtension = ".log"
     let encoding: LogsEncoding = .utf8
     
